@@ -9,30 +9,11 @@
     width: 800px;
     z-index: 3;
 }
+
 .restaurants__card {
     margin: 20px;
 }
 
-/*** Style du contenu de restaurants__card pour le restaurant A la française ***/
-.restaurants__title {
-    left:300px;
-}
-.card__rating-1 {
-    left: 455px;
-}
-.card__rating-2 {
-    left: 430px;
-}
-/*** Style du contenu de restaurants__card pour les autres restaurants ***/
-.restaurants__title__long {
-    left:260px;
-}
-.card__rating-1__long {
-    left: 480px;
-}
-.card__rating-2__long {
-    left: 456px;
-}
 /** Mise en page des sections menus**/
 .section__one,
 .section__two,
@@ -44,13 +25,16 @@
 .footer__links a {
     gap: 8px;
 }
+
 .links__icon {
     gap: 8px;
-} 
+}
+
 .footer__logo img {
     width: 139px;
     margin-left: 50px;
 }
+
 .links {
     margin-left: 30px;
 }
