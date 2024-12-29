@@ -76,50 +76,7 @@
     position: relative;
 }
 
-/***Style du contenu de restaurants__card pour le restaurant : A la française***/
-/*.restaurants__title {
-    margin: 20px 0 0 50px;
-    font-size: 28px;
-    font-style: italic;
-    font-family: shrikhand;
-    font-weight: 700;
-    line-height: 40.82px;
-}
-
-.card__rating-1 {
-    position: relative;
-    bottom: -35px;
-    left: 250px;
-}
-
-.card__rating-2 {
-    position: relative;
-    bottom: -35px;
-    left: 226px;
-    opacity: 0;
-    overflow: hidden;
-    background: linear-gradient(#7124ce, #FF79DA);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
-.card__rating-2:hover {
-    animation: progress__heart 1000ms forwards;
-}
-
-@keyframes progress__heart {
-    0% {
-        transform: scaleY(0);
-    }
-
-    100% {
-        opacity: 1;
-        transform: scaleY(1);
-    }
-}*/
-
-/***Style du contenu de restaurants__card pour les autres restaurants***/
+/***Style du contenu de restaurants__card ***/
 .restaurants__title__long {
     font-size: 28px;
     font-style: italic;
